@@ -85,7 +85,7 @@ router.post(
     } = req.body;
 
     const document_url = req.file
-      ? `http://localhost:6663/uploads/${req.file.filename}`
+      ? `https://wedigitbackend.onrender.com/uploads/${req.file.filename}`
       : null;
 
     const query = `
